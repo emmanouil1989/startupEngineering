@@ -26,7 +26,7 @@ ln -sb dotfiles/.bashrc_custom .
 mv .emacs.d .emacs.d~
 ln -s dotfiles/.emacs.d .
 
-npm install -g jshint
+sudo npm install -g jshint
 
 
 echo "Just Installed the following software:"
