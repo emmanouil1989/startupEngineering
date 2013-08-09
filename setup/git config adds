@@ -1,0 +1,8 @@
+[heroku]
+        remote = heroku
+[remote "staging-heroku"]
+        url = git@heroku.com:xxxx-bitstarter-s-mooc.git
+        fetch = +refs/heads/*:refs/remotes/staging-heroku/*
+[remote "production-heroku"]
+        url = git@heroku.com:xxxx-bitstarter-mooc.git
+        fetch = +refs/heads/*:refs/remotes/production-heroku/*
